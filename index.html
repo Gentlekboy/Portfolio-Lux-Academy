@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/hamburger.css">
+    <title>Kufre Udoh | Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="">
+                </a>
+            </div>
+
+            <div id="navbarLinks" class="navLinks">
+                <a href="index.html">Home</a>
+                <a href="#about">About Me</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact Me</a>
+            </div>
+
+            <button id="btn" class="menu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
+                <svg width="100" height="50" viewBox="0 0 100 100">
+                  <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                  <path class="line line2" d="M 20,50 H 80" />
+                  <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                </svg>
+              </button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Hi, <br> I'm Kufre Udoh</h1>
+        <p>Front End Web Developer</p>
+    </section>
+
+    <section id="about">
+        <h2>ABOUT ME</h2>
+        <small>Just A Little Information About Me</small>
+        <p>I am a self-taught front end developer with a year of experience working with HTML, CSS, JavaScript and Bootstrap. I am comfortable converting web designs to fully responsive web pages using the technologies mentioned earlier. <br> I look forward to adding React JS to my skill set and move on to learning Node JS in order to built full stack web applications and websites. As I am still very much in my learning phase, I am open to collaborations.</p>
+    </section>
+
+    <section id="projects">
+        <h2>PROJECTS</h2>
+        <small>A Few Things I Have Worked On</small>
+
+        <div class="projectContainer">
+            <div class="projectList">
+                <img src="images/medlab.png" alt="">
+                <div class="pp">
+                    <h3>MEDLAB</h3>
+                    <div class="projectLinks">
+                        <a href="https://gentlekboy.github.io/Med-Lab/" target="_blank" rel="noopener noreferrer">VISIT MEDLAB</a>
+                        <a href="https://github1s.com/Gentlekboy/Med-Lab" target="_blank" rel="noopener noreferrer">VIEW CODES</a>
+                    </div>
+                    <P>HTML | CSS | Bootstrap</P>
+                </div>
+            </div>
+            <div class="projectList">
+                <img src="images/archer.png" alt="">
+                <h3>ARCHER</h3>
+                <div class="projectLinks">
+                    <a href="https://gentlekboy.github.io/archer/" target="_blank" rel="noopener noreferrer">VISIT MEDLAB</a>
+                    <a href="https://github1s.com/Gentlekboy/archer" target="_blank" rel="noopener noreferrer">VIEW CODES</a>
+                </div>
+                <P>HTML | CSS | Bootstrap</P>
+            </div>
+            <div class="projectList">
+                <img src="images/stopwatch.png" alt="">
+                <h3>STOPWATCH</h3>
+                <div class="projectLinks">
+                    <a href="https://gentlekboy.github.io/stopwatch/" target="_blank" rel="noopener noreferrer">VISIT MEDLAB</a>
+                    <a href="https://github1s.com/Gentlekboy/stopwatch" target="_blank" rel="noopener noreferrer">VIEW CODES</a>
+                </div>
+                <P>HTML | CSS | JavaScript</P>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <a href="http://github.com/gentlekboy" target="_blank" rel="noopener noreferrer">
+            <img src="images/github.png" alt="">
+        </a>
+        <a href="http://linkedin.com/in/gentlekboy" target="_blank" rel="noopener noreferrer">
+            <img src="images/linkedin.png" alt="">
+        </a>
+        <a href="http://twitter.com/gentlekboy" target="_blank" rel="noopener noreferrer">
+            <img src="images/twitter.png" alt="">
+        </a>
+        <a href="mailto: udoh.kufre.m@gmail.com">
+            <img src="images/mail.png" alt="">
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
